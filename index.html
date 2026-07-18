@@ -1,36 +1,77 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-  <center>
-    <title>Login</title>
+    <title>Reservation Form</title>
 </head>
-<body>
+<body bgcolor="E6EFE6">
 
-    <h2>Log in</h2>
-    
-    <form action="/login-endpoint" method="POST">
-        
-        <!-- Username Input -->
-        <div>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-        </div>
-        
-        <br>
+<h1 align="center">Reservation Form</h1>
 
-        <!-- Password Input -->
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-        </div>
-        
-        <br>
-<a href="PETA 3.html">
-        <!-- Sign In Button -->
-        <button type="submit">Login</button>
-</a>
-    </form>
-</center>
+<form>
+
+<h2>Personal Information</h2>
+
+First Name:<br>
+<input type="text"><br><br>
+
+Last Name:<br>
+<input type="text"><br><br>
+
+Email:<br>
+<input type="email"><br><br>
+
+Phone Number:<br>
+<input type="text"><br><br>
+
+Emergency Contact:<br>
+<input type="text"><br><br>
+
+Gender:<br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<br><br>
+
+<h2>Payment Type</h2>
+
+<input type="radio" name="payment"> GCash<br>
+<input type="radio" name="payment"> BDO Card<br>
+<input type="radio" name="payment"> Visa Card<br>
+<input type="radio" name="payment"> Master Card<br><br>
+
+<h2>Itinerary</h2>
+
+<input type="checkbox"> Swimming<br>
+<input type="checkbox"> Tour in Chocolate Hills<br><br>
+
+Special Requests:<br>
+<textarea rows="5" cols="30"></textarea>
+<br><br>
+
+<h2>Reservation Details</h2>
+
+Check-in Date:<br>
+<input type="date"><br><br>
+
+Check-out Date:<br>
+<input type="date"><br><br>
+
+Number of Travellers:<br>
+<input type="number"><br><br>
+
+<input type="checkbox">
+I agree to the reservation terms and conditions.
+<br><br>
+
+<input type="submit" value="Confirm">
+<input type="reset" value="Cancel Form">
+
+</form>
+
+<hr>
+
+<b>NAME:</b> ELEZER BONOAN<br><br>
+
+<b>GRADE AND SECTION:</b> 11-LATORENA
+
 </body>
 </html>
